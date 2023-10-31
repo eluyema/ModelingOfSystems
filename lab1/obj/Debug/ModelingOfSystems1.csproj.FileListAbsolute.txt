@@ -1,0 +1,15 @@
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\ModelingOfSystems1.exe.config
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\ModelingOfSystems1.exe
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\ModelingOfSystems1.pdb
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.csproj.AssemblyReference.cache
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.Form1.resources
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.Properties.Resources.resources
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.csproj.GenerateResource.cache
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.csproj.CoreCompileInputs.cache
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.exe
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.pdb
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\MathNet.Numerics.dll
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\System.ValueTuple.dll
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\MathNet.Numerics.xml
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\bin\Debug\System.ValueTuple.xml
+C:\Users\danylo\source\repos\ModelingOfSystems1\ModelingOfSystems1\obj\Debug\ModelingOfSystems1.csproj.CopyComplete
