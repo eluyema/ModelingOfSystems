@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ModelingOfSystems1.Core.Generators
 {
-    public class UniformGenerator : BaseGenerator
+    public class UniformGenerator 
     {
         private double z = 3.1415926;
         private (double x1, double x2) _range = (0, 1);

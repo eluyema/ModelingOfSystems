@@ -52,12 +52,12 @@ namespace ModelingOfSystems1
             double s = DistributionUtils.calculateDispersion(distribution);
 
             double h = (max - min) / k;
-            List<Bin> binsN = exponentialGenerator.generateBins(distribution, k, min, max, h);
-            List<Bin> binsPDF = exponentialGenerator.generateBinsPDF(distribution, k, min, max, h);
+            List<Bin> binsN = DistributionUtils.generateBins(distribution, k, min, max, h);
+            List<Bin> binsPDF = DistributionUtils.generateBinsPDF(distribution, k, min, max, h);
             List<Bin> ruleBinsPDF = exponentialGenerator.generateTheoreticalBinsPDF(binsPDF, l, h);
 
             double x2 = exponentialGenerator.computeChiSquared(binsN, 1/s);
-            double x2cr = exponentialGenerator.getCriticalChiSquared(binsN);
+            double x2cr = DistributionUtils.getCriticalChiSquared(binsN);
 
             setUpChart(chartInfo.chart, chartInfo.firstSeriesTitle, chartInfo.secondSeriesTitle, min, max, h); ;
 
@@ -88,12 +88,12 @@ namespace ModelingOfSystems1
 
             double h = (max - min) / k;
 
-            List<Bin> binsPDF = normalGenerator.generateBinsPDF(distribution, k, min, max, h);
+            List<Bin> binsPDF = DistributionUtils.generateBinsPDF(distribution, k, min, max, h);
             List<Bin> ruleBinsPDF = normalGenerator.generateTheoreticalBinsPDF(binsPDF, me, sigma);
-            List<Bin> binsN = normalGenerator.generateBins(distribution, k, min, max, h);
+            List<Bin> binsN = DistributionUtils.generateBins(distribution, k, min, max, h);
 
             double x2 = normalGenerator.computeChiSquared(binsN, me, sigma);
-            double x2cr = normalGenerator.getCriticalChiSquared(binsN);
+            double x2cr = DistributionUtils.getCriticalChiSquared(binsN);
 
             setUpChart(chartInfo.chart, chartInfo.firstSeriesTitle, chartInfo.secondSeriesTitle, min, max, h); ;
 
@@ -125,11 +125,11 @@ namespace ModelingOfSystems1
 
             double h = (max - min) / k;
 
-            List<Bin> binsPDF = uniformGenerator.generateBinsPDF(distribution, k, min, max, h);
+            List<Bin> binsPDF = DistributionUtils.generateBinsPDF(distribution, k, min, max, h);
             List<Bin> ruleBinsPDF = uniformGenerator.generateTheoreticalBinsPDF(binsPDF);
-            List<Bin> binsN = uniformGenerator.generateBins(distribution, k, min, max, h);
+            List<Bin> binsN = DistributionUtils.generateBins(distribution, k, min, max, h);
             double x2 = uniformGenerator.computeChiSquared(binsN);
-            double x2cr = uniformGenerator.getCriticalChiSquared(binsN);
+            double x2cr = DistributionUtils.getCriticalChiSquared(binsN);
 
             setUpChart(chartInfo.chart, chartInfo.firstSeriesTitle, chartInfo.secondSeriesTitle, min, max, h); ;
 

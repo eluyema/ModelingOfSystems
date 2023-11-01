@@ -10,7 +10,7 @@ using ModelingOfSystems1.Core.EmbeddedDistribution;
 
 namespace ModelingOfSystems1.Core.Generators
 {
-    public class NormalGenerator : BaseGenerator
+    public class NormalGenerator 
     {
         private EmbeddedGenerator _embeddedGenerator;
 

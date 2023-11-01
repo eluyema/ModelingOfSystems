@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ModelingOfSystems1.Core.Generators
 {
-    public class ExponentialGenerator : BaseGenerator
+    public class ExponentialGenerator
     {
         private EmbeddedGenerator _embeddedGenerator;
 

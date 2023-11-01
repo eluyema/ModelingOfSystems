@@ -57,7 +57,6 @@
     <Compile Include="Core\DistributionCalculator\DistributionUtils.cs" />
     <Compile Include="Core\EmbeddedDistribution\EmbeddedGenerator.cs" />
     <Compile Include="Core\Generators\ExponentialGenerator.cs" />
-    <Compile Include="Core\Generators\BaseGenerator.cs" />
     <Compile Include="Core\Generators\NormalGenerator.cs" />
     <Compile Include="Core\Generators\UniformGenerator.cs" />
     <Compile Include="Form1.cs">
