@@ -1,0 +1,4 @@
+C:\Users\danylo\source\repos\ModelingSystem2\ModelingSystem2\obj\Debug\net6.0\ModelingSystem2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danylo\source\repos\ModelingSystem2\ModelingSystem2\obj\Debug\net6.0\ModelingSystem2.AssemblyInfoInputs.cache
+C:\Users\danylo\source\repos\ModelingSystem2\ModelingSystem2\obj\Debug\net6.0\ModelingSystem2.AssemblyInfo.cs
+C:\Users\danylo\source\repos\ModelingSystem2\ModelingSystem2\obj\Debug\net6.0\ModelingSystem2.csproj.CoreCompileInputs.cache
